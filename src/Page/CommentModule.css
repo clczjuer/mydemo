@@ -1,0 +1,22 @@
+
+.comments {
+    color: aqua;
+    box-shadow: inset;
+    border-radius: 1%;
+}
+.select {
+    color: aquamarine;
+    width: 100px ;
+}
+
+.cur_username {
+    color: aqua;
+    text-align: left;
+  
+    
+}
+
+.content {
+    color: bisque;
+    height: 100px;
+}
