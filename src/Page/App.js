@@ -1,11 +1,13 @@
 import React from "react";
-import CommentModule from "./commentmodule";
+// import CommentModule from "./commentmodule";
+import CommentAnt from "./CommentAnt";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <CommentModule>sle</CommentModule>
+        <CommentAnt />
+        {/* <CommentModule /> */}
       </div>
     );
   }
