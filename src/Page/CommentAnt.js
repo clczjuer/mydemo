@@ -3,6 +3,8 @@ import './CommentAnt.css';
 import CommentCompnent from "./componet/Comment";
 import AvatarCompnent from "./componet/AvatarCompnent";
 import SelectCompnent from "./componet/SelectCompnent";
+import CompTest from "./CompTest";
+
 
 // const usernames = [ "nouser", "clc", "cici"]
  const usernames = [
@@ -31,6 +33,9 @@ class CommentAnt extends React.Component {
         <SelectCompnent uns={usernames} getMsg={this.getCurName}/>
         <br/>
         <CommentCompnent name={this.state.cur_username} />
+        <CompTest/>
+      
+
         <br/>
       </div>
     );

@@ -3,8 +3,6 @@ import React from "react";
 import PropTypes from 'prop-types'
 const { Option } = Select;
 
-
-
 class SelectCompnent extends React.Component {
   onChange = (value) => {
     console.log(`selected ${value}`);
