@@ -1,6 +1,9 @@
 import { Select } from "antd";
 import React from "react";
+import PropTypes from 'prop-types'
 const { Option } = Select;
+
+
 
 class SelectCompnent extends React.Component {
   onChange = (value) => {
@@ -32,5 +35,9 @@ class SelectCompnent extends React.Component {
       </Select>
     );
   }
+}
+SelectCompnent.propTypes = {
+    getMsg: PropTypes.func,
+    uns: PropTypes.array
 }
 export default SelectCompnent;

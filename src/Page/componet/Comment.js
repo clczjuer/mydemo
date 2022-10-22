@@ -2,6 +2,7 @@ import { Button, Comment, Form, Input, List } from 'antd';
 import AvatarCompnent from './AvatarCompnent';
 import moment from 'moment';
 import React, { useState } from 'react';
+
 const { TextArea } = Input;
 const CommentList = ({ comments }) => (
   <List

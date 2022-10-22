@@ -1,8 +1,8 @@
 import { Avatar } from 'antd';
 import React from 'react';
+import PropTypes from 'prop-types'
 
-
-const AvatarCompnent = (props) => (
+function AvatarCompnent(props) {
   <>
     <Avatar
       style={{
@@ -13,5 +13,9 @@ const AvatarCompnent = (props) => (
       {props.name}
     </Avatar>
   </>
-);
+};
+
+AvatarCompnent.propTypes = {
+  name:PropTypes.string
+}
 export default AvatarCompnent;
